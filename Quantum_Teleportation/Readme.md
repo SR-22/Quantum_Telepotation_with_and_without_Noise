@@ -10,7 +10,8 @@ Teleportation allows transferring an unknown qubit state from Alice (the sender)
 
 This repository demonstrates the full teleportation protocol in a clear, modular, and well-documented Jupyter Notebook.
 
-The specific version of the code included here is configured to teleport the quantum state:$$\mathbf{|\psi\rangle = |+\rangle = \frac{1}{\sqrt{2}}(|0\rangle + |1\rangle)}$$
+The specific version of the code included here is configured to teleport the quantum state:
+$\mathbf{|\psi\rangle = |+\rangle = \frac{1}{\sqrt{2}}(|0\rangle + |1\rangle)}$
 
 ## Features
 
@@ -61,7 +62,8 @@ Bob’s classical bit (cB) reveals the teleported state.
 Teleportation is executed on AerSimulator with 1024 shots.
 
 ## 📊 Results and Verification
-Execution yielded the following counts:{'0 0 1': 126, '1 1 0': 127, '1 1 1': 125, '1 0 0': 131, '1 0 1': 143, '0 1 1': 107, '0 0 0': 135, '0 1 0': 130}
+Execution yielded the following counts:
+{'0 0 1': 126, '1 1 0': 127, '1 1 1': 125, '1 0 0': 131, '1 0 1': 143, '0 1 1': 107, '0 0 0': 135, '0 1 0': 130}
 
 ### Analysis of Bob's Final State ($qB$):
 In the output key format, the bits are ordered as a single register, and based on successful execution, the rightmost bit represents the final measurement of Bob's qubit ($c_B$).
@@ -70,8 +72,8 @@ In the output key format, the bits are ordered as a single register, and based o
 Since the initial state was $|\mathbf{+}\rangle$, a measurement in the computational basis (Z-basis) should yield $|0\rangle$ and $|1\rangle$ with equal probability ($\approx 50/50$).
 
 * Actual Verification:
-  ** Total for $qB = |1\rangle$ (Keys ending in '1'): $126 + 125 + 143 + 107 = \mathbf{501}$ shots
-  ** Total for $qB = |0\rangle$ (Keys ending in '0'): $127 + 131 + 135 + 130 = \mathbf{523}$ shots
+  * Total for $qB = |1\rangle$ (Keys ending in '1'): $126 + 125 + 143 + 107 = \mathbf{501}$ shots
+  * Total for $qB = |0\rangle$ (Keys ending in '0'): $127 + 131 + 135 + 130 = \mathbf{523}$ shots
 
   The result of 501 vs. 523 shots is a nearly perfect $50\% / 50\%$ distribution, confirming that the $|\mathbf{+}\rangle$ state was coherently and successfully teleported from Alice's $qC$ to Bob's $qB$.
 
@@ -100,8 +102,8 @@ Open the notebook file and run all cells.
 
 ## File Structure
 
-├── Quantum_Teleportation.ipynb
-└── README.md
+* Quantum_Teleportation.ipynb
+* README.md
 
 ## References
 
