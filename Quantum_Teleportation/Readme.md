@@ -15,12 +15,12 @@ $\mathbf{|\psi\rangle = |+\rangle = \frac{1}{\sqrt{2}}(|0\rangle + |1\rangle)}$
 
 ## Features
 
-✔ Implements the standard teleportation protocol
-✔ Uses dynamic circuits (if_test) instead of deprecated c_if
-✔ Uses AerSimulator, which supports classical conditions
-✔ Step-by-step explanations in markdown
-✔ Includes circuit building, measurement results, and backend execution
-✔ Beginner-friendly but technically correct
+* Implements the standard teleportation protocol
+* Uses dynamic circuits (if_test) instead of deprecated c_if
+* Uses AerSimulator, which supports classical conditions
+* Step-by-step explanations in markdown
+* Includes circuit building, measurement results, and backend execution
+* Beginner-friendly but technically correct
 
 ## Notebook Structure
 
@@ -63,6 +63,7 @@ Teleportation is executed on AerSimulator with 1024 shots.
 
 ## 📊 Results and Verification
 Execution yielded the following counts:
+
 {'0 0 1': 126, '1 1 0': 127, '1 1 1': 125, '1 0 0': 131, '1 0 1': 143, '0 1 1': 107, '0 0 0': 135, '0 1 0': 130}
 
 ### Analysis of Bob's Final State ($qB$):
