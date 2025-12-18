@@ -59,12 +59,12 @@ Noise is applied to:
 
 Teleportation performance is evaluated using **quantum state fidelity**:
 
-[ F = \langle \psi | \rho_B | \psi \rangle ]
+$[ F = \langle \psi | \rho_B | \psi \rangle ]$
 
 where:
 
-* (|\psi\rangle) is the ideal input state
-* (\rho_B) is Bob’s reduced density matrix
+* $(|\psi\rangle)$ is the ideal input state
+* $(\rho_B)$ is Bob’s reduced density matrix
 
 ---
 
