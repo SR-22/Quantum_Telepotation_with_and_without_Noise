@@ -1,4 +1,4 @@
-# Quantum Teleportation Simulations (Qiskit)
+# Quantum_Teleportation_with_and_without_noise
 
 This repository contains **two structured implementations of the quantum teleportation protocol** using **Qiskit**, progressing from an **ideal (noise-free) model** to a **realistic noise-simulated model**. The project is designed to help learners and researchers understand how quantum teleportation behaves under both theoretical and practical conditions.
 
